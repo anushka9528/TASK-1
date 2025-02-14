@@ -1,0 +1,80 @@
+body {
+    background: url(360_F_545428173_uyYWJoR9n5uJFYIWfDa2C49AzIECcU20.jpg) no-repeat center center/cover;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.h1 {
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255,255,255,0.5);
+    margin:50px;
+}
+
+/* Content section styles */
+.content {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Form styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color:rgba(0,0,0,0.5);
+    box-shadow: inset -5px -5px rgba(0,0,0,alpha);
+    border-radius: 25px;
+}
+.form h1{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255,255,255,0.5);
+    margin:50px;
+}    
+
+.box{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color:aquamarine;
+    box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+    color: white;
+    font-size: 1rem;
+}
+
+#submit{
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 50%;
+    background-color: aqua;
+    box-shadow: inset -3px -3px aquamarine;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+#submit{
+    cursor: pointer;
+    background-color:black;
+    color: aquamarine;
+}
